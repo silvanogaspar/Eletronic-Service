@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eletronic Service - Assistência Técnica</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Eletronic Service</h1>
+            <nav>
+                <ul>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#sobre">Sobre Nós</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <h2>Assistência Técnica Rápida e Eficiente</h2>
+            <p>Reparação de Eletrodomésticos, computadores e tablets. Confie-nos os seus dispositivos.</p>
+            <button onclick="mostrarMensagem()">Obter Orçamento</button>
+        </div>
+    </section>
+
+    <section id="servicos">
+        <div class="container">
+            <h2>Serviços que Oferecemos</h2>
+            <div class="servico">
+                <h3>Reparação de Eletrodomésticos</h3>
+                <p>Substituição de peças pela original.</p>
+            </div>
+            <div class="servico">
+                <h3>Manutenção de Computadores</h3>
+                <p>Formatação, upgrades e reparações de hardware.</p>
+            </div>
+            <div class="servico">
+                <h3>Reparação de Tablets</h3>
+                <p>Resolução de problemas de software e hardware em tablets.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre">
+        <div class="container">
+            <h2>Sobre Nós</h2>
+            <p>A Eletronic Service está no mercado há mais de 10 anos, oferecendo assistência técnica de alta qualidade para todos os tipos de dispositivos eletrônicos. O nosso foco é a satisfação do cliente, proporcionando soluções rápidas e eficazes.</p>
+        </div>
+    </section>
+
+    <section id="contacto">
+        <div class="container">
+            <h2>Contacto</h2>
+            <form id="form-contacto">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" placeholder="Seu nome" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Seu email" required>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" placeholder="Escreva sua mensagem" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Eletronic Service. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
